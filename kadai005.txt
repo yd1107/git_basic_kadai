@@ -1,0 +1,18 @@
+
+yudatomoko@yudatomokonoMacBook-Air git_challenge % mkdir git_challenge
+yudatomoko@yudatomokonoMacBook-Air git_challenge % cd git_challenge
+yudatomoko@yudatomokonoMacBook-Air git_challenge % git init
+Initialized empty Git repository in /Users/yudatomoko/git_challenge/git_challenge/.git/
+yudatomoko@yudatomokonoMacBook-Air git_challenge % git add /Users/yudatomoko/git_challenge/git_challenge/hello_world.txt
+yudatomoko@yudatomokonoMacBook-Air git_challenge % git commit -m "hello_world.txtを追加"
+[main (root-commit) bff4344] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+yudatomoko@yudatomokonoMacBook-Air git_challenge % git add .
+yudatomoko@yudatomokonoMacBook-Air git_challenge % git commit -m "日本語訳を追記"
+[main 15e4084] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+yudatomoko@yudatomokonoMacBook-Air git_challenge % git log --oneline
+15e4084 (HEAD -> main) 日本語訳を追記
+bff4344 hello_world.txtを追加
+yudatomoko@yudatomokonoMacBook-Air git_challenge % 
